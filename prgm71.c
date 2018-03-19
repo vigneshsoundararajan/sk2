@@ -11,13 +11,13 @@ int main(void) {
 	if(a[i]!=a[j])
 	{
 		flag=1;
-		printf("\n not a palindrome");
+		printf("\n no, not a palindrome");
 
 	}
 	}
 	if(flag==0)
 	{
-		printf("\n it is palindrome");
+		printf("\n yes,it is palindrome");
 	}
 	return 0;
 }
